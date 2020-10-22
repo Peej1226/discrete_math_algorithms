@@ -1,5 +1,7 @@
+# @https://en.wikipedia.org/wiki/Euclidean_algorithm
 # single line of input, two number seperated by a space, then converted into two ints
-numb, divisor = [int(x) for x in input("enter two numbers ").split()]
+print("enter two numbers seperated by a space")
+numb, divisor = [int(x) for x in input("=> ").split()]
 print("-")
 rmd = 1
 while rmd > 0:
